@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo-image{
+    height: 80px;
+    width: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+ul, li, a {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+#right_part_image {
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+}
+
+#hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button{
+    margin-top: 10px;
+}
