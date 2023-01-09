@@ -24,7 +24,7 @@ ul {
     gap: 30px;
 }
 
-li, a {
+li, .links {
     text-decoration: none;
     font-style: italic;
     list-style: none;
@@ -51,17 +51,17 @@ a:hover {
     padding-top: 35px;
 }
 
-h1{
+.left-part-title{
     font-size: 48px;
     font-family: monospace;
 }
 
-p{
+.left-part-text{
     font-size: 21px;
     font-family: 'Teko';
 }
 
-button{
+.left-part-button{
     color: red;
     padding: 5px 20px;
     justify-content: flex-end;
@@ -107,7 +107,7 @@ button{
 }
 
 .quote {
-    padding-top: 80px;
+    padding-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,4 +125,50 @@ button{
     font-size: 25px;
     margin-left: 600px;
     color: darkslateblue;
+}
+
+.last {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-container {
+    border:5px, solid;
+    background-color: rgb(47, 46, 48);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.last-left{
+    padding: 20px 60px;
+}   
+
+.last-button {
+    margin-right: 40px;
+}
+
+.last-title {
+    color: whitesmoke;
+}
+
+.last-text {
+    color: white
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(47, 46, 48);
+}
+
+.copyright{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
 }
